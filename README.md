@@ -5,8 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PE12-Legacy/manifest -b twelve-plus
-
+repo init -u https://github.com/duli95/PE12-Legacy-manifes -b twelve-plus
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
